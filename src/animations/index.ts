@@ -21,7 +21,7 @@ export const getCardsAnimation = (index: number) => ({
     scale: 1,
     transformOrigin: 'center',
     x: 0,
-    delay: index * 0.2,
-    duration: 1
+    delay: index * 0.1,
+    duration: 0.4
   }
 })
